@@ -2,11 +2,11 @@
 
 This project focuses on analyzing synthetic clinical data related to blood disorders, particularly anemia. Using Python and its data science libraries, the project explores hematological parameters such as hemoglobin (HGB), red blood cell count (RBC), platelet count (PLT), and others to uncover patterns, correlations, and insights useful for early diagnosis and management.
 
-## 🟠 Project Overview
+## Project Overview
 
 Blood disorders like anemia are a significant health concern worldwide. This project simulates real-world patient data, processes and visualizes it using Python tools, and extracts meaningful relationships between various clinical parameters. The goal is to aid clinical decision-making and enhance the understanding of anemia's prevalence and characteristics.
 
-## ✅ Features
+## Features
 
 - Synthetic dataset generation mimicking real patient health records.
 - Data preprocessing including handling missing values, removing duplicates, and outlier detection.
@@ -15,7 +15,7 @@ Blood disorders like anemia are a significant health concern worldwide. This pro
 - Analysis of anemia types: Microcytic, Normocytic, and Macrocytic.
 - Automated reports using Sweetviz for data quality insights.
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python** – Main programming language.
 - **Pandas** – Data manipulation and cleaning.
@@ -24,13 +24,13 @@ Blood disorders like anemia are a significant health concern worldwide. This pro
 - **Sweetviz** – Automated data analysis report.
 - **Google Colab** – Cloud-based coding environment.
 
-## 📂 Dataset
+## Dataset
 
 - Format: `.xlsx`
 - Features include Patient ID, Age, Sex, RBC, PCV, MCV, MCH, RDW, WBC, MCHC, PLT, HGB.
 - 10,000 synthetic records simulating diverse demographics.
 
-## 📖 Methodology
+## Methodology
 
 1. Data cleaning and preprocessing.
 2. Handling missing values through mean imputation and formula-based calculations.
@@ -39,7 +39,7 @@ Blood disorders like anemia are a significant health concern worldwide. This pro
 5. Visual analysis of patterns and correlations.
 6. Anemia classification and exploration of subtypes.
 
-## 📊 Visualizations
+## Visualizations
 
 - Heatmaps of missing data.
 - Correlation matrix of blood parameters.
@@ -47,21 +47,21 @@ Blood disorders like anemia are a significant health concern worldwide. This pro
 - Pie charts for anemia distribution and types.
 - Boxplots for outlier detection.
 
-## 📌 Key Findings
+## Key Findings
 
 - Strong correlations between RBC and Packed Cell Volume (PCV).
 - Classification of anemia based on hemoglobin and RBC counts.
 - Insights into the distribution of anemia types across age groups.
 - Identification of trends that can support clinical diagnostics.
 
-## 🚀 Future Work
+## Future Work
 
 - Expand the dataset to include more biomarkers and demographic diversity.
 - Incorporate longitudinal data for predictive modeling.
 - Apply machine learning techniques to classify anemia types and severity.
 - Integrate with healthcare tools for real-time diagnostic support.
 
-## 📚 References
+## References
 
 - [Pandas Documentation](https://pandas.pydata.org/)
 - [NumPy Documentation](https://numpy.org/)
@@ -72,7 +72,7 @@ Blood disorders like anemia are a significant health concern worldwide. This pro
 
 ---
 
-### 📥 Installation & Usage
+### Installation & Usage
 
 ```bash
 # Clone this repository
